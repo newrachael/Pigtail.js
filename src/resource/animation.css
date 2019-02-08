@@ -1,0 +1,14 @@
+.star {
+    stroke-dasharray: 408;
+    stroke-dashoffset: 408;
+    animation: dash 1s linear forwards;
+    animation-iteration-count: 1;
+}  
+@keyframes dash {
+    from {
+        stroke-dashoffset: 408;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+}
