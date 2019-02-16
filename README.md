@@ -3,9 +3,11 @@
 
 ## usage
 ~~~~javascript
-import Pigtail from 'Pigtail.js';
-
+// HTML
 <span class="pigtail">강조 문구</span>입니다
+
+// Javascript 
+import Pigtail from 'Pigtail.js';
 
 // html document ready( ComponentDidMount )
 Pigtail({
